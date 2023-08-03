@@ -18,7 +18,7 @@ color = (0, 0, 0) #Schriftfarbe
 thickness = 1 #Schriftdicke
 parser = argparse.ArgumentParser()
 
-pfadLeer = "/Users/janbusse/Desktop/Space/"
+pfadLeer = "/Users/test/Desktop/Space/"
 
 parser.add_argument('--name', type=str, required=True) 
 parser.add_argument('--url', type=str, required=True) #URL im QR Code
