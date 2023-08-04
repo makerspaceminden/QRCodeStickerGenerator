@@ -4,5 +4,4 @@ Python Script zum erstellen von Stickern mit QR Code
 
 
 Beispielbefehl: 
-```sudo python3 /Users/TEST/Desktop/Space/arg1.py --name "TEST Name"  --url "MakerSpace-minden.de" --text1 "Freitext 1" --text2 "Freitext 2" --text3 "Freitext 3" --text4 "Freitext 4" --out /Users/TEST/Desktop/Space/ 
-```
+```sudo python3 /Users/TEST/Desktop/Space/arg1.py --name "TEST Name"  --url "MakerSpace-minden.de" --text1 "Freitext 1" --text2 "Freitext 2" --text3 "Freitext 3" --text4 "Freitext 4" --out /Users/TEST/Desktop/Space/ ```
