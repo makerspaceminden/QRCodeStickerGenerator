@@ -1,5 +1,7 @@
 # QRCodeStickerGenerator
-Python Script zum erstellen von Stickern mit QR Code 
+Python Script zum erstellen von Stickern mit QR Code mit unseren Labeldrucker.
+
+
 ![stickerTEST Name](https://github.com/makerspaceminden/QRCodeStickerGenerator/assets/48227459/15edef4d-8b1c-4541-9da8-7158e7e7c39c)
 
 
