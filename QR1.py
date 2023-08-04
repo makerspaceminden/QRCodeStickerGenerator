@@ -20,14 +20,14 @@ parser = argparse.ArgumentParser()
 
 pfadLeer = "/Users/test/Desktop/Space/"
 
-parser.add_argument('--name', type=str, required=True) 
-parser.add_argument('--url', type=str, required=True) #URL im QR Code
-parser.add_argument('--text1', type=str, required=False, default="") #Freitext Zeile 1
-parser.add_argument('--text2', type=str, required=False, default="") #Freitext Zeile 2
-parser.add_argument('--text3', type=str, required=False, default="") #Freitext Zeile 3
-parser.add_argument('--text4', type=str, required=False, default="") #Freitext Zeile 4
-parser.add_argument('--foot', type=str, required=False, default="Eigentum MakerSpace Minden e.V.") #Fusszeile
-parser.add_argument('--out', type=str, required=True) #Pfad zum speichern 
+parser.add_argument('--name', type=str, required=True, help='Name des Geräts') 
+parser.add_argument('--url', type=str, required=True, help='URL im QR Code') #URL im QR Code
+parser.add_argument('--text1', type=str, required=False, default="", help='Freitext Zeile 1') #Freitext Zeile 1
+parser.add_argument('--text2', type=str, required=False, default="", help='Freitext Zeile 2') #Freitext Zeile 2
+parser.add_argument('--text3', type=str, required=False, default="", help='Freitext Zeile 3') #Freitext Zeile 3
+parser.add_argument('--text4', type=str, required=False, default="", help='Freitext Zeile 4') #Freitext Zeile 4
+parser.add_argument('--foot', type=str, required=False, default="Eigentum MakerSpace Minden e.V.", help='Fusszeile. Default: Eigentum MakerSpace Minden e.V.') #Fusszeile
+parser.add_argument('--out', type=str, required=True, help='Pfad zum Speicherort') #Pfad zum speichern 
 args = parser.parse_args()
 
 path = args.out 
